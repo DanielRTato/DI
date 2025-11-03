@@ -22,7 +22,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("My App")
 
         etiqueta = QLabel("1")
-        etiqueta.setText("Hola")
+        #etiqueta.setText("Hola")
         font = etiqueta.font()
         font.setPointSize(30)
         etiqueta.setFont(font)
